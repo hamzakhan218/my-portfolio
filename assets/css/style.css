@@ -336,6 +336,10 @@ main {
   border-radius: 20px;
 }
 
+.social-list {
+  display: flex;
+  justify-content: center;
+}
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
@@ -431,7 +435,7 @@ main {
 
 .social-list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 15px;
   padding-bottom: 4px;
@@ -1333,7 +1337,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 30px;
   }
 
-  .sidebar.active { max-height: 584px; }
+  .sidebar.active { max-height: 610px; }
 
   .sidebar-info { gap: 25px; }
 
