@@ -316,12 +316,12 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 162px;
   overflow: hidden;
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 520px; }
 
 .sidebar-info {
   position: relative;
@@ -1333,11 +1333,11 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    max-height: 180px;
+    max-height: 210px;
     margin-bottom: 30px;
   }
 
-  .sidebar.active { max-height: 610px; }
+  .sidebar.active { max-height: 900px; }
 
   .sidebar-info { gap: 25px; }
 
